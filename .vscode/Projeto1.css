@@ -1,11 +1,10 @@
 * {
-    margin: 70;
-    padding: 70;
-   
+    margin: 0;
+    padding: 0;
 }
 
 .produtos {
-    background-color: rgb(199, 0, 0);
+    background-color: rgb(15, 7, 62);
     text-align: center;
 }
 
@@ -16,7 +15,7 @@
 .produtos-card {
     background-color: rgb(255, 251, 251);
     margin-top: 20px;
-    width: 250px;
+    width: 300px;
     padding: 20px;
     border-radius: 8%;
     transition: transform 0.3s;
@@ -35,10 +34,10 @@
 }
 
 .produtos-card button {
-    background-color: rgb(34, 31, 107);
+    background-color: rgb(36, 36, 76);
     color: white;
     padding: 12px 20px;
-    border: 50px;
+    border: none;
     margin-top: 10px;
     border-radius: 8%;
     cursor: pointer;
@@ -56,9 +55,6 @@
     flex-wrap: wrap;
     gap: 20px;
     background-color: black;
-    background-image: url("./imgdefundo2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .missil2{
     height: 250px;
@@ -75,7 +71,7 @@
 
 
 .produtos h1{
-    font-size: 50px;
+    font-size: 120px;
     color: aliceblue;
 }
 .produtos-card h3{
@@ -84,7 +80,7 @@
 }
 
 .produtos-card p {
-    color: rgb(1, 1, 1);
+    color: blue;
     font-size: 16px;
     margin-top: 5px;
 }
@@ -95,10 +91,10 @@
 }
 
 header{
-    display: contents;
+    display: flex;
     justify-content: space-between;
     font-size: 22px;
-    align-items: baseline;
+    align-items: center;
     background-color: black;
     color: beige;
 }
@@ -116,15 +112,10 @@ header{
 
 body{
     background-color: rgb(103, 102, 102);
-
-}
-.logo img{
-    height: 100px;
-    border-radius: 50%;
 }
 
 .navbar {
-    background-color: rgb(21, 21, 125);
+    background-color: darkgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,12 +166,11 @@ body{
 }
 
 .dropdown-menu li a:hover{
-    background-color: rgb(226, 14, 14);
+    background-color: black;
 }
 
 .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-    
 }
