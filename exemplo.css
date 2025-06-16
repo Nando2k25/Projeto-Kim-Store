@@ -1,14 +1,10 @@
 * {
-    margin: 70;
-    padding: 70;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-   
+    margin: 0;
+    padding: 0;
 }
 
 .produtos {
-    background-color: rgb(175, 0, 0);
+    background-color: rgb(15, 7, 62);
     text-align: center;
 }
 
@@ -19,11 +15,10 @@
 .produtos-card {
     background-color: rgb(255, 251, 251);
     margin-top: 20px;
-    width: 250px;
+    width: 300px;
     padding: 20px;
     border-radius: 8%;
     transition: transform 0.3s;
-    font-family: Arial, Helvetica, serif;
 }
 
 .produtos-card img{
@@ -39,10 +34,10 @@
 }
 
 .produtos-card button {
-    background-color: rgb(34, 31, 107);
+    background-color: rgb(36, 36, 76);
     color: white;
     padding: 12px 20px;
-    border: 50px;
+    border: none;
     margin-top: 10px;
     border-radius: 8%;
     cursor: pointer;
@@ -50,7 +45,7 @@
 }
 
 .produtos-card button:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: gray;
     color: black;
 }
 
@@ -60,9 +55,6 @@
     flex-wrap: wrap;
     gap: 20px;
     background-color: black;
-    background-image: url("background3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .missil2{
     height: 250px;
@@ -79,7 +71,7 @@
 
 
 .produtos h1{
-    font-size: 50px;
+    font-size: 120px;
     color: aliceblue;
 }
 .produtos-card h3{
@@ -88,7 +80,7 @@
 }
 
 .produtos-card p {
-    color: rgb(1, 1, 1);
+    color: blue;
     font-size: 16px;
     margin-top: 5px;
 }
@@ -99,10 +91,10 @@
 }
 
 header{
-    display: contents;
+    display: flex;
     justify-content: space-between;
     font-size: 22px;
-    align-items: baseline;
+    align-items: center;
     background-color: black;
     color: beige;
 }
@@ -119,16 +111,11 @@ header{
 }
 
 body{
-    background-color: rgb(33, 18, 108);
-
-}
-.logo img{
-    height: 100px;
-    border-radius: 50%;
+    background-color: rgb(103, 102, 102);
 }
 
 .navbar {
-    background-color: rgb(199, 0, 0);
+    background-color: darkgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,12 +130,12 @@ body{
 
 .navlinks li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 200;
 }
 
 .navlinks li a:hover {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 .dropdown a {
     display: flex;
@@ -162,7 +149,7 @@ body{
     visibility: hidden;
     transform: translatey(10px);
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: azure;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -174,7 +161,7 @@ body{
 .dropdown-menu li a {
     padding: 12px;
     display: block;
-    color: rgb(255, 255, 255);
+    color: darkgrey;
     white-space: nowrap;
 }
 
@@ -186,32 +173,4 @@ body{
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-}
-
-.linha-azul {
-    background-color: rgb(33, 18, 108);
-    color: rgb(33, 18, 108);
-}
-
-.drop2 {
-    background-color: white;
-    display: flex;
-}
-
-.drop2 li a {
-    margin-right: 20px;
-    padding: 15px;
-    text-decoration: none;
-}
-.quemsomos{
-    font-size: xx-large;
-    font-weight: 200;
-    font-style: oblique;
-    background-color: azure;
-}
-.quemsomostxt{
-    font-size: x-large;
-    font-weight: 100;
-    font-style: inherit;
-    background-color: azure;
 }
