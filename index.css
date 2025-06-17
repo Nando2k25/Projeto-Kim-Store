@@ -20,8 +20,8 @@
     background-color: rgb(255, 251, 251);
     margin-top: 20px;
     width: 250px;
-    padding: 20px;
-    border-radius: 8%;
+    padding: 30px;
+    border-radius: 5%;
     transition: transform 0.3s;
     font-family: Arial, Helvetica, serif;
 }
@@ -195,7 +195,9 @@ body{
 
 .drop2 {
     background-color: white;
+    color: red;
     display: flex;
+
 }
 
 .drop2 li a {
@@ -204,14 +206,74 @@ body{
     text-decoration: none;
 }
 .quemsomos{
-    font-size: xx-large;
+    font-size: 80px;
     font-weight: 200;
     font-style: oblique;
     background-color: azure;
+    color: black;
 }
 .quemsomostxt{
     font-size: x-large;
     font-weight: 100;
     font-style: inherit;
     background-color: azure;
+    height: 50px;
 }
+.suporte{
+    font-size: 100px;
+    font-family: serif;
+    background-color: white;
+}
+.linhasepara{
+    background-color: rgb(33, 18, 108); 
+    color: rgb(33, 18, 108); 
+    font-size: 2px;
+}
+
+.veiculos img{
+    border-radius: 8%;
+    width: 250px;
+    height: 150px;
+}
+
+.veiculos:hover {
+    transform: translateY(-10px);
+}
+
+.veiculos button {
+    background-color: rgb(34, 31, 107);
+    color: white;
+    padding: 12px 20px;
+    border: 50px;
+    margin-top: 10px;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.veiculos button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.veiculos-container {
+    background-color: rgb(255, 251, 251);
+    margin-top: 20px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+    font-family: Arial, Helvetica, serif;
+}
+.veiculo2{
+    height: 250px;
+}
+.veiculo3{
+    height: 250px;
+}
+
+.missil4{
+    width: 200px;
+    height: 250px;
+}
+
