@@ -17,10 +17,10 @@
 }
 
 .produtos-card {
-    background-color: rgb(255, 251, 251);
+    background-color: gray;
     margin-top: 20px;
     width: 250px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 5%;
     transition: transform 0.3s;
     font-family: Arial, Helvetica, serif;
@@ -40,13 +40,14 @@
 
 .produtos-card button {
     background-color: rgb(34, 31, 107);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: 50px;
     margin-top: 10px;
     border-radius: 8%;
     cursor: pointer;
     transition: background-color 0.2s;
+    
 }
 
 .produtos-card button:hover {
@@ -59,8 +60,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: black;
-    background-image: url("background3.jpg");
+    background-color: azure;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -275,5 +275,15 @@ body{
 .missil4{
     width: 200px;
     height: 250px;
+}
+.rifle1{
+    width: 100px;
+}
+.type88 img{
+    width: 20px;
+    height: 10px;
+}
+.norico img{
+    height: 20px;
 }
 
