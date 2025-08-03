@@ -23,13 +23,13 @@
     margin-top: 70px;
     width: 200px;
     padding: 75px;
-    border-radius: 3%;
+    border-radius: 1%;
     transition: transform 0.3s;
     font-family: Arial, Helvetica, serif;
 }
 
 .produtos-card img{
-    border-radius: 8%;
+    border-radius: 1%;
     width: 200px;
     height: 150px;
 }
@@ -292,4 +292,8 @@ body{
 
 .linha1{
     color: rgb(255, 255, 255);
+}
+
+.fuzil3{
+    height: 50px;
 }
